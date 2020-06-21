@@ -1,0 +1,1 @@
+All  the code would be written inside the src folder only
