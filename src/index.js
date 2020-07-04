@@ -14,6 +14,7 @@ const express = require('express');
 
 // START OF ROUTE IMPORT //
 const HomeRoute = require('./routes/HomeRoute')
+const SendInfoRoute = require('./routes/SendInfoRoutes')
 
 // END OF ROUTE IMPORT //
 
@@ -25,6 +26,8 @@ const app = express()
 
 // MIDDLEWARE SECTION BEGINS//
 app.use(HomeRoute)
+app.use(SendInfoRoute)
+
 // MIDDLEWARE SECTION ENDS
 
 
